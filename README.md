@@ -159,7 +159,7 @@ AWS S3 bucket for media and static file storage.
   - Used for delete confirmation.
 
 - **Search button**
-  - Are visually appealing and effect and fully functional.
+  - Are visually appealing, effective and fully functional.
 
 
 
