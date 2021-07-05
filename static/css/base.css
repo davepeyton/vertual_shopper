@@ -6,8 +6,8 @@ body {
 	background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
 	background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
-    font-family: "Lato";
+    color: rgb(221, 218, 218);
+    font-family: "Akya";
 }
 
 /* from Bulma */
@@ -49,7 +49,7 @@ body {
 }
 
 .text-black {
-    color: #000 !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .border-black {
