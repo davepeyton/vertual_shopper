@@ -57,7 +57,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'vertual_shopper.urls'
+ROOT_URLCONF = 'virtual_shopper.urls'
 
 TEMPLATES = [
     {
@@ -98,7 +98,7 @@ ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/success'
 
-WSGI_APPLICATION = 'vertual_shopper.wsgi.application'
+WSGI_APPLICATION = 'virtual_shopper.wsgi.application'
 
 
 # Database
