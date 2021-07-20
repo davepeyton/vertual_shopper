@@ -96,7 +96,7 @@ ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
-LOGIN_REDIRECT_URL = '/success'
+LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'virtual_shopper.wsgi.application'
 
@@ -110,10 +110,6 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
-#DATABASES = {
-#    'default': dj_database_url('postgres://yedsyqgoghmiji:8209facd7e0927a6ee2d721df1bcc7dda882edaac4e61ba7d49126df044cbf14@ec2-54-74-77-126.eu-west-1.compute.amazonaws.com:5432/d1pje4u8lvm9ve')
-#}
 
 
 # Password validation
