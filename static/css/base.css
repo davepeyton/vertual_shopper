@@ -43,7 +43,7 @@ body {
 .btn-black:active,
 .btn-black:focus {
     background: #222;
-    color: rgb(136, 7, 7);
+    color: rgb(207, 7, 7);
 }
 
 .text-black {
@@ -51,7 +51,7 @@ body {
 }
 
 .border-black {
-    border: 1px solid rgb(100, 28, 28) !important;
+    border: 1px solid rgb(245, 238, 238) !important;
 }
 
 .bg-black {
