@@ -17,8 +17,8 @@ body {
     width: 1.5rem;
 }
 
-.display-4 .logo-font .text-black {
-    text-transform: lowercase;
+#make-text {
+    font: italic;
     color: red;
 }
 
@@ -35,10 +35,6 @@ body {
 .btn-black {
     background: black;
     color: rgb(168, 164, 164);
-}
-
-.display-4 {
-    color: red;
 }
 
 .shop-now-button:hover,
