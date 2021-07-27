@@ -17,8 +17,9 @@ body {
     width: 1.5rem;
 }
 
-.logo-font {
-    text-transform: uppercase;
+.display-4 .logo-font .text-black {
+    text-transform: lowercase;
+    color: red;
 }
 
 .main-logo-link {
@@ -34,6 +35,10 @@ body {
 .btn-black {
     background: black;
     color: rgb(168, 164, 164);
+}
+
+.display-4 {
+    color: red;
 }
 
 .shop-now-button:hover,
