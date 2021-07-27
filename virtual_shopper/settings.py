@@ -27,7 +27,7 @@ SECRET_KEY = 'f@ei#64*b*bz3u4yie-$()@cd^l(+c9&@6ypx+r0lm(3%_4hr5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['virtual-shopper.herokuapp.com', 'localhost']
 
 
 # Application definition
