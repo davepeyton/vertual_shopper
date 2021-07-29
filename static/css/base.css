@@ -37,6 +37,9 @@ body {
     color: rgb(168, 164, 164);
 }
 
+.logo-font{
+    color: white;
+}
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
