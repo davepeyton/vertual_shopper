@@ -76,6 +76,10 @@ background-color: gb(100, 28, 28);
 	z-index: -1;
 }
 
+.product-details-container{
+    color: white;
+}
+
 /* --------------------------------- Media queries */
 
 /* Slightly larger container on xl screens */
