@@ -69,7 +69,7 @@ background-color: gb(100, 28, 28);
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: white;
+	background: rgb(20, 20, 20);
 	z-index: -1;
 }
 
