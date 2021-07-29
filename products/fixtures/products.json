@@ -6,10 +6,8 @@
             "sku": "pp5001340155",
             "name": "BMW R45 Cafe Racer",
             "description": "Great bike, comfortable and looks great too. available online only",
-            "has_sizes": true,
-            "price": 53.99,
-            "category": 6,
-            "rating": 4.6,
+            "price": 1053.99,
+            "category": 2,
             "image_url": "https://i.pinimg.com/originals/49/01/5e/49015e37f175064016b2ad4759012ed1.jpg",
             "image": "cr45.jpg"
         }
