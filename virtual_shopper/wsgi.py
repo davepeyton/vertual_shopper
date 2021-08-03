@@ -1,5 +1,5 @@
 """
-WSGI config for vertual_shopper project.
+WSGI config for virtual_shopper project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'vertual_shopper.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'virtual_shopper.settings')
 
 application = get_wsgi_application()
