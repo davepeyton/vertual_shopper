@@ -107,7 +107,7 @@ WSGI_APPLICATION = 'virtual_shopper.wsgi.application'
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('postgres://qrpaeyvvcbqjpa:0bf3ee1cd63dbe1626924cab0ea891baf1165ff11b4a16d5b402971d0d1cae10@ec2-52-19-96-181.eu-west-1.compute.amazonaws.com:5432/d4ptej8n5sor1v'))
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
 else:
     DATABASES = {

@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Vertual Shopper</h1>
+  <h1>Virtual Shopper</h1>
 <hr>
 
 **A Comic Store with collectibles and cool stuff,  this is an e-commerce app with full user and admin functionality**
