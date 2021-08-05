@@ -133,18 +133,7 @@ SOCIALACCOUNT_PROVIDERS = {
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-if 'DATABASE_URL' in os.environ:
-    DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-    }
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
-    }
-
+DATABASES = {'default': dj_database_url.parse('postgres://qrpaeyvvcbqjpa:0bf3ee1cd63dbe1626924cab0ea891baf1165ff11b4a16d5b402971d0d1cae10@ec2-52-19-96-181.eu-west-1.compute.amazonaws.com:5432/d4ptej8n5sor1v') }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
