@@ -1,15 +1,121 @@
-[
-    {
-        "pk": 1,
-        "model": "products.product",
-        "fields": {
-            "sku": "cr45",
-            "name": "BMW R45 Cafe Racer",
-            "description": "Great bike, comfortable and looks great too. available online only",
-            "price": 1053.99,
-            "category": 2,
-            "image_url": "https://i.pinimg.com/originals/49/01/5e/49015e37f175064016b2ad4759012ed1.jpg",
-            "image": "cr45.jpg"
-        }
-    }
+[{
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+        "sku": "cr45",
+        "name": "BMW R45 Cafe Racer",
+        "description": "Great bike, comfortable and looks great too. available online only",
+        "price": 153.99,
+        "category": 1,
+        "image_url": "https://i.pinimg.com/originals/0f/80/6e/0f806e802a67f38411013f6171ea699a.jpg",
+        "image": "cr45.jpg"
+}},
+{
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+        "sku": "cr65",
+        "name": "BMW R65 Cafe Racer",
+        "description": "Great bike, comfortable and looks great too. available online only",
+        "price": 900.99,
+        "category": 1,
+        "image_url": "https://cloud.leparking-moto.fr/2020/08/08/00/43/bmw-r-bmw-r65-r80-r100-caferacer-scrambler-bmsplit-custom_138881254.jpg",
+        "image": "cr65.jpg"
+ }},
+{
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+        "sku": "cr80",
+        "name": "BMW R80 Cafe Racer",
+        "description": "Great bike, comfortable and looks great too. available online only",
+        "price": 800.99,
+        "category": 1,
+        "image_url": "https://cloud.leparking-moto.fr/2021/06/24/01/02/bmw-r-bmw-r80-caferacer_153264212.jpg",
+        "image": "cr80.jpg"
+}},
+{
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+        "sku": "cr100",
+        "name": "BMW R100 Cafe Racer",
+        "description": "Great bike, comfortable and looks great too. available online only",
+        "price": 800.99,
+        "category": 1,
+        "image_url": "https://cdn.webshopapp.com/shops/38604/files/342694198/500x500x2/bmw-r100-cafe-racer.jpg",
+        "image": "cr100.jpg"
+ }},
+{
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+        "sku": "sr45",
+        "name": "BMW R45",
+        "description": "Great bike, comfortable and looks great too. available online only",
+        "price": 800.99,
+        "category": 2,
+        "image_url": "https://www.motorcyclespecs.co.za/Gallery/BMW%20R45%2080.jpg",
+        "image": "cr45.jpg"
+}},
+{
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+        "sku": "sr65",
+        "name": "BMW R65",
+        "description": "Great bike, comfortable and looks great too. available online only",
+        "price": 800.99,
+        "category": 2,
+        "image_url": "https://i1.wp.com/www.bike-urious.com/wp-content/uploads/BMW-R65-Front-Left.jpg",
+        "image": "cr65.jpg"
+ }},
+{
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+        "sku": "sr80",
+        "name": "BMW R80",
+        "description": "Great bike, comfortable and looks great too. available online only",
+        "price": 700.99,
+        "category": 2,
+        "image_url": "https://assets.carandclassic.co.uk/uploads/cars/bmw/C1364397/1983-bmw-r80-60f5a265b335e.jpg",
+        "image": "cr80.jpg"
+}},
+{
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+        "sku": "sr100",
+        "name": "BMW R100",
+        "description": "Great bike, comfortable and looks great too. available online only",
+        "price": 400.99,
+        "category": 2,
+        "image_url": "https://mcn-images.bauersecure.com/upload/305286/615x405/r100rs-for-sale.jpg",
+        "image": "sr100.jpg"
+}},
+{
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+        "sku": "sk01",
+        "name": "BMW R seat kit - Cafe Racer",
+        "description": "Great bike, comfortable and looks great too. available online only",
+        "price": 600.99,
+        "category": 3,
+        "image_url": "https://www.kickstartershop.de/media/images/info/1SB_GK3_4.jpg",
+        "image": "sk02.jpg"
+ }},
+{
+    "pk":10,
+    "model": "products.product",
+    "fields": {
+        "sku": "sk02",
+        "name": "BMW R bobber seat kit",
+        "description": "looks a feels great, very comfortable on long rides. available online only",
+        "price": 500.99,
+        "category": 3,
+        "image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension=1820x1280:format=jpg/path/sf0181576130428b0/image/i55116ce294939f54/version/1583588528/image.jpg",
+        "image": "sk01.jpg"
+}}
 ]
