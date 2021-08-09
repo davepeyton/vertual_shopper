@@ -52,7 +52,7 @@ Visit the live site [here](/)
 ### **<u>Scope</u>**
 
 The scope of this app is to create a Python and Django based e-commerce site for an imaginary multi product online store. Vertual Shopper offers competitive prices on all its products.
-Vertual Shoppers aim is to provide all the relevant e-commerce functionality to all its visitors, as well as an easy to use toolset for the sites owner to manage. This app supports payments via paypal and all visa/debit cards and uses an 
+Virtual Shoppers aim is to provide all the relevant e-commerce functionality to all its visitors, as well as an easy to use toolset for the sites owner to manage. This app supports payments via paypal and all visa/debit cards and uses an 
 AWS S3 bucket for media and static file storage.
 
 ### **<u>Design</u>**
@@ -442,8 +442,8 @@ The project used Amazon Web Services s3, which is a cloud-based storage service,
     - Replace resource value '*' with your bucket ARN from the bucket policy page;
 
     "Resource": [
-        "arn:aws:s3:::vertual-shopper",
-        "arn:aws:s3:::vertual-shopper/*"
+        "arn:aws:s3:::virtual-shopper",
+        "arn:aws:s3:::virtual-shopper/*"
     ]
 
   - Click 'Review policy', give it a name and a description and click 'Create policy'
@@ -469,7 +469,7 @@ The project used Amazon Web Services s3, which is a cloud-based storage service,
 12. To connect Jdango to s3 add the below settings in settings.py which will tell it which bucket it should be communicating with;
 
         if 'USE_AWS' in os.environ:
-            AWS_STORAGE_BUCKET_NAME = 'vertual-shopper'
+            AWS_STORAGE_BUCKET_NAME = 'virtual-shopper'
             AWS_S3_REGION_NAME = 'eu-west-2'
             AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
             AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
@@ -562,7 +562,7 @@ Forking allows you to create a copy of the original repository and propose chang
 
 1. Log in to GitHub and locate the GitHub Repository.
     
-    The vertual shopper repository can be found [here]()
+    The virtual shopper repository can be found [here]()
 
 2. At the top of the Repository (not top of page) just above the "Settings" button on the menu, locate the "Fork" button.
 
@@ -581,7 +581,7 @@ When you clone a repository, the repository is copied on to your local machine, 
 
 1. Log in to GitHub and locate the GitHub Repository.
    
-   The vertual shopper repository can be found [here]()
+   The virtual shopper repository can be found [here]()
 
 2. Under the repository name, click the "download code" option.
 
@@ -598,15 +598,15 @@ When you clone a repository, the repository is copied on to your local machine, 
 6. Type git clone, and then paste the URL you copied in Step 3.
 
     ```
-    $ git clone https://github.com/YOUR-USERNAME/vertualshopper.git
+    $ git clone https://github.com/YOUR-USERNAME/virtual_shopper.git
     ```
 
 7. Press Enter. Your local clone will be created.
 
     ```
-    $ git clone https://github.com/YOUR-USERNAME/vertualshopper.git
+    $ git clone https://github.com/YOUR-USERNAME/virtual_shopper.git
 
-    > Cloning into `vertualshopper`...
+    > Cloning into `virtual_shopper`...
     > remote: Enumerating objects: 299, done.
     > remote: Counting objects: 100%, (299/299),  done.
     > remote: Compressing objects: 100% (156/156), done.
@@ -615,7 +615,7 @@ When you clone a repository, the repository is copied on to your local machine, 
     > Resolving deltas: 100% (145/145), done. Unpacking objects: 100% (10/10), done.
     ```
 
-    Now, you have a local copy of your fork of the vertualshopper repository.
+    Now, you have a local copy of your fork of the virtual_shopper repository.
 
     > **Note:** The repository name and output numbers that you see on your computer, representing the total file size, etc, may differ from the example I have provided above.
 
