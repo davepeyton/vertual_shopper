@@ -5,9 +5,9 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
@@ -17,11 +17,11 @@
                 Standard
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="standard-link">
-                <a href="{% url 'products' %}?category=standard" class="dropdown-item">R45</a>
-                <a href="{% url 'products' %}?category=standard" class="dropdown-item">R65</a>
-                <a href="{% url 'products' %}?category=standard" class="dropdown-item">R80</a>
-                <a href="{% url 'products' %}?category=standard" class="dropdown-item">R100</a>
-                <a href="{% url 'products' %}?category=>sr45,sr65,sr80,sr100" class="dropdown-item">All Standard R's</a>
+                <a href="{% url 'products' %}?category=standard,sr45" class="dropdown-item">R45</a>
+                <a href="{% url 'products' %}?category=standard,sr65" class="dropdown-item">R65</a>
+                <a href="{% url 'products' %}?category=standard,sr80" class="dropdown-item">R80</a>
+                <a href="{% url 'products' %}?category=standard,sr100" class="dropdown-item">R100</a>
+                <a href="{% url 'products' %}?category=standard,sr45,sr65,sr80,sr100" class="dropdown-item">All Standard R's</a>
             </div>
         </li>
 
@@ -31,11 +31,11 @@
             </a>
             
             <div class="dropdown-menu border-0" aria-labelledby="custom-link">
-                <a href="{% url 'products' %}?category=custom" class="dropdown-item">R45</a>
-                <a href="{% url 'products' %}?category=custom" class="dropdown-item">R65</a>
-                <a href="{% url 'products' %}?category=custom" class="dropdown-item">R80</a>
-                <a href="{% url 'products' %}?category=custom" class="dropdown-item">R100</a>
-                <a href="{% url 'products' %}?category=>custom" class="dropdown-item">All Custom R's</a>
+                <a href="{% url 'products' %}?category=custom,cr45" class="dropdown-item">R45</a>
+                <a href="{% url 'products' %}?category=custom,cr65" class="dropdown-item">R65</a>
+                <a href="{% url 'products' %}?category=custom,cr80" class="dropdown-item">R80</a>
+                <a href="{% url 'products' %}?category=custom,cr100" class="dropdown-item">R100</a>
+                <a href="{% url 'products' %}?category=custom,cr45,cr65,cr80,cr100" class="dropdown-item">All Custom R's</a>
             </div>  
         </li>
 
@@ -44,9 +44,9 @@
                 Kits
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="kits-link">
-                <a href="{% url 'products' %}?category=kits" class="dropdown-item">bobber Kit</a>
-                <a href="{% url 'products' %}?category=kits" class="dropdown-item">Cafe Racer Kit</a>
-                <a href="{% url 'products' %}?category=bobber,caferacer" class="dropdown-item">All Kits</a>
+                <a href="{% url 'products' %}?category=kits,sk01" class="dropdown-item">bobber Kit</a>
+                <a href="{% url 'products' %}?category=kits,sk02" class="dropdown-item">Cafe Racer Kit</a>
+                <a href="{% url 'products' %}?category=kits" class="dropdown-item">All Kits</a>
             </div>
         </li>
     </ul>

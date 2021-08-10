@@ -62,10 +62,6 @@ body {
     background: #000 !important;
 }
 
-.free-delivery {
-background-color: gb(100, 28, 28);
-}
-
 .overlay {
 	height: 100%;
 	width: 100%;
@@ -74,6 +70,11 @@ background-color: gb(100, 28, 28);
 	position: fixed;
 	background: rgb(20, 20, 20);
 	z-index: -1;
+}
+
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
 }
 
 .product-details-container{
