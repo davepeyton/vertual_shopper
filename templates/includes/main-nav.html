@@ -17,10 +17,10 @@
                 Standard
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="standard-link">
-                <a href="{% url 'products' %}?category=sr45" class="dropdown-item">R45</a>
-                <a href="{% url 'products' %}?category=sr65" class="dropdown-item">R65</a>
-                <a href="{% url 'products' %}?category=sr80" class="dropdown-item">R80</a>
-                <a href="{% url 'products' %}?category=sr100" class="dropdown-item">R100</a>
+                <a href="{% url 'products' %}?category=standard" class="dropdown-item">R45</a>
+                <a href="{% url 'products' %}?category=standard" class="dropdown-item">R65</a>
+                <a href="{% url 'products' %}?category=standard" class="dropdown-item">R80</a>
+                <a href="{% url 'products' %}?category=standard" class="dropdown-item">R100</a>
                 <a href="{% url 'products' %}?category=>sr45,sr65,sr80,sr100" class="dropdown-item">All Standard R's</a>
             </div>
         </li>
@@ -31,11 +31,11 @@
             </a>
             
             <div class="dropdown-menu border-0" aria-labelledby="custom-link">
-                <a href="{% url 'products' %}?category=cr45" class="dropdown-item">R45</a>
-                <a href="{% url 'products' %}?category=cr65" class="dropdown-item">R65</a>
-                <a href="{% url 'products' %}?category=cr80" class="dropdown-item">R80</a>
-                <a href="{% url 'products' %}?category=cr100" class="dropdown-item">R100</a>
-                <a href="{% url 'products' %}?category=>cr45,cr65,cr80,cr100" class="dropdown-item">All Custom R's</a>
+                <a href="{% url 'products' %}?category=custom" class="dropdown-item">R45</a>
+                <a href="{% url 'products' %}?category=custom" class="dropdown-item">R65</a>
+                <a href="{% url 'products' %}?category=custom" class="dropdown-item">R80</a>
+                <a href="{% url 'products' %}?category=custom" class="dropdown-item">R100</a>
+                <a href="{% url 'products' %}?category=>custom" class="dropdown-item">All Custom R's</a>
             </div>  
         </li>
 
@@ -44,9 +44,8 @@
                 Kits
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="kits-link">
-                <a href="{% url 'products' %}?category=seatkits" class="dropdown-item">Seat &amp; Kit</a>
-                <a href="{% url 'products' %}?category=bobber" class="dropdown-item">Bodder Kit</a>
-                <a href="{% url 'products' %}?category=caferacer" class="dropdown-item">Cafe Racer Kit</a>
+                <a href="{% url 'products' %}?category=kits" class="dropdown-item">bobber Kit</a>
+                <a href="{% url 'products' %}?category=kits" class="dropdown-item">Cafe Racer Kit</a>
                 <a href="{% url 'products' %}?category=bobber,caferacer" class="dropdown-item">All Kits</a>
             </div>
         </li>
