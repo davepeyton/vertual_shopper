@@ -56,7 +56,7 @@
         "price": 6800.99,
         "category": 2,
         "image_url": "https://www.motorcyclespecs.co.za/Gallery/BMW%20R45%2080.jpg",
-        "image": "cr45.jpg"
+        "image": "sr45.jpg"
 }},
 {
     "pk": 6,
@@ -68,7 +68,7 @@
         "price": 3800.99,
         "category": 2,
         "image_url": "https://i1.wp.com/www.bike-urious.com/wp-content/uploads/BMW-R65-Front-Left.jpg",
-        "image": "cr65.jpg"
+        "image": "sr65.jpg"
  }},
 {
     "pk": 7,
@@ -80,7 +80,7 @@
         "price": 4700.99,
         "category": 2,
         "image_url": "https://assets.carandclassic.co.uk/uploads/cars/bmw/C1364397/1983-bmw-r80-60f5a265b335e.jpg",
-        "image": "cr80.jpg"
+        "image": "sr80.jpg"
 }},
 {
     "pk": 8,
@@ -104,7 +104,7 @@
         "price": 600.99,
         "category": 3,
         "image_url": "https://www.kickstartershop.de/media/images/info/1SB_GK3_4.jpg",
-        "image": "sk02.jpg"
+        "image": "sk01.jpg"
  }},
 {
     "pk":10,
@@ -116,6 +116,6 @@
         "price": 500.99,
         "category": 3,
         "image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension=1820x1280:format=jpg/path/sf0181576130428b0/image/i55116ce294939f54/version/1583588528/image.jpg",
-        "image": "sk01.jpg"
+        "image": "sk02.jpg"
 }}
 ]
