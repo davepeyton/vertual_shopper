@@ -62,6 +62,12 @@ body {
     background: #000 !important;
 }
 
+.btn-outline-black {
+    background: gray;
+    color: red !important; /* use important to override link colors for <a> elements */
+    border: 1px solid white;
+}
+
 .overlay {
 	height: 100%;
 	width: 100%;
