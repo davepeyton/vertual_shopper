@@ -62,8 +62,7 @@
                     </div>
                 </form>
             </div>
-
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+                   <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -72,7 +71,6 @@
                                 <p class="my-0">My Account</p>
                             </div>
                         </a>
-                        
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
                                 {% if request.user.is_superuser %}
@@ -86,9 +84,8 @@
                             {% endif %}
                         </div>
                     </li>
-                    
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
                             <div class="text-center">
                                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                 <p class="my-0">
@@ -105,9 +102,9 @@
             </div>
         </div>
         <div class="row bg-black">
-            <nav class="navbar navbar-expand-lg navbar-dark w-100">
+            <nav class="navbar navbar-expand-lg navbar-light w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon bg-light"></span>
                 </button>
                 {% include 'includes/mobile-top-header.html' %}
                 {% include 'includes/main-nav.html' %}
@@ -115,85 +112,24 @@
         </div>
         <div id="delivery-banner" class="row text-center">
             <div class="col bg-black text-white">
-                <h4 class="logo-font my-1">{{ free_delivery_threshold }}</h4>                
+                <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>                
             </div>            
         </div>
     </header>
-    
-    
 
     {% if messages %}
         <div class="message-container"></div>
     {% endif %}
-    
 
     {% block page_header %}
     {% endblock %}
 
     {% block content %}
-    
-    <footer>
-        <!-- Footer section -->
-        <div class="container-fluid footer-container">
-            <div class="row">
-                <div class="col-12 col-md-6 contact-col flex-center">
-                    <h3>We're here to help.</h3>
-                    <p>Email us on
-                        <a href="mailto:virtualshopper@gmail.com" target="_blank"
-                                rel="noreferrer">
-                            virtualshopper@gmail.com
-                        </a>
-                    </p>
-                    <p>Call us at +353 (0)19784632</p>
-                    <a href="{% url '' %}">Or you can contact us here <i class="las la-angle-right"
-                            aria-hidden="true"></i>
-                    </a>
-                </div>
-                <div class="col-12 social-col col-md-6 ">
-                    <h3>Follow us on social</h3>
-                    <ul class="social-media flex-center">
-                        <li>
-                            <a class="social-media-links" href="https://www.instagram.com/" target="_blank"
-                                rel="noreferrer">
-                                <i class="lab la-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram Link.</span></a>
-                        </li>
-                        <li>
-                            <a class="social-media-links" href="https://www.facebook.com/" target="_blank"
-                                rel="noreferrer">
-                                <i class="lab la-facebook-square" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook Link.</span></a>
-                        </li>
-                        <li>
-                            <a class="social-media-links" href="https://www.twitter.com/" target="_blank"
-                                rel="noreferrer">
-                                <i class="lab la-twitter-square" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter Link.</span></a>
-                        </li>
-                        <li>
-                            <a class="social-media-links" href="https://www.pinterest.ie/" target="_blank"
-                                rel="noreferrer">
-                                <i class="lab la-pinterest" aria-hidden="true"></i>
-                                <span class="sr-only">Pinterest link</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    {% block other_end_js %}
-    {% endblock %}
-
-    <script src="{% static 'js/main.js' %}"></script>
-
-</body>
-
-</html>
     {% endblock %}
 
     {% block postloadjs %}
     {% endblock %}
 
-    </body>
+    
+  </body>
 </html>
